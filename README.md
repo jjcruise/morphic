@@ -23,7 +23,8 @@ Please note that there are differences between this repository and the official 
 - [x] Develop features for sharing results
 - [x] Implement functionality to get answers from specified URL
 - [x] Add video support for search functionality
-- [x] Support Google Generative AI Provider ([Note](https://github.com/miurla/morphic/issues/192))
+- [x] Support Google Generative AI Provider ([※](https://github.com/miurla/morphic/issues/192))
+- [x] [Use as a search engine](#-search-engine)
 
 ## 🧱 Stack
 
@@ -129,7 +130,16 @@ This will allow you to use Morphic as your default search engine in the browser.
 
 ## ✅ Verified models
 
-List of verified models that can be specified to writers.
+List of models applicable to all:
+
+- OpenAI
+  - gpt-4o
+  - gpt-4-turbo
+  - gpt-3.5-turbo
+- Google
+  - Gemini 1.5 pro [※](https://github.com/miurla/morphic/issues/192)
+
+List of verified models that can be specified to writers:
 
 - [Groq](https://console.groq.com/docs/models)
   - LLaMA3 8b
